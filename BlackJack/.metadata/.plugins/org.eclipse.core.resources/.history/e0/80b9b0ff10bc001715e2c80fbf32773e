@@ -1,0 +1,18 @@
+package fr.univ.artois;
+
+import javax.swing.JTextField;
+
+public class ZoneDeSaisieServeur extends JTextField{
+	
+	private String adresseServeur;
+	
+	public ZoneDeSaisieServeur(){
+		this.setText("Entrez l'adresse:");
+		this.setSize(50, 50);
+	}
+	
+	public String getAdresseServeur(){
+		return this.adresseServeur;
+	}
+
+}

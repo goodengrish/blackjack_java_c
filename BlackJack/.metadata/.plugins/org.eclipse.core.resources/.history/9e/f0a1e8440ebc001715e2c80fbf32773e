@@ -1,0 +1,13 @@
+package fr.univ.artois;
+
+import javax.swing.JTextField;
+
+public class ZoneDeSaisieServeur extends JTextField{
+	
+	
+	
+	public ZoneDeSaisieServeur(){
+		
+	}
+
+}

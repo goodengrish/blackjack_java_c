@@ -1,0 +1,17 @@
+package fr.univ.artois;
+
+import java.util.HashMap;
+
+public class Main {
+	
+	public static void main(String[] args){
+		//FenetrePrincipale fen = new FenetrePrincipale();
+		HashMap hm = new HashMap();
+		hm.put(1, "premier");
+		hm.put(1, "second");
+		
+		
+		
+	}
+
+}

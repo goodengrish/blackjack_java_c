@@ -1,0 +1,13 @@
+package fr.univ.artois;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+public class FenetreDeLobby extends JPanel{
+	
+	public JPanel(){
+		this.setBackground(Color.BLACK);
+	}
+
+}

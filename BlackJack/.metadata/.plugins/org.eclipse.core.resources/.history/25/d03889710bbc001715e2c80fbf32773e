@@ -1,0 +1,22 @@
+package fr.univ.artois;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+/**
+ * Avant de lancer sa partie,
+ * le joueur devra se connecter au serveur.
+ * Cet objet lui permettra d'indiquer son serveur et
+ * si le serveur est plein,
+ * on l'indiquera au joueur et il sera mis en attente
+ * @author Browarr
+ *
+ */
+public class FenetreDeLobby extends JPanel{
+	
+	public FenetreDeLobby(){
+		this.setBackground(Color.BLACK);
+	}
+
+}

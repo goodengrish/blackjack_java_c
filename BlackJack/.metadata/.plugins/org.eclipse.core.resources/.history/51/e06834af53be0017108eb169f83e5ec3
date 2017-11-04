@@ -1,0 +1,12 @@
+package fr.univ.artois;
+
+/**
+ * JPanel représentant le croupier sur le plateau de jeu
+ * @author Browarr
+ *
+ */
+public class Croupier extends JPanel{
+	
+	
+
+}

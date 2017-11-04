@@ -1,0 +1,32 @@
+package fr.univ.artois;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Main {
+	
+	public static void main(String[] args) throws IOException{
+		//FenetrePrincipale fen = new FenetrePrincipale();
+		
+		FileReader fr = null;
+		try{
+			fr = new FileReader(new File("test.txt"));
+			int c;
+			String msg;
+			while ( (c = fr.read()) != -1){
+				System.out.println(c);
+			}
+		}
+
+		catch (IOException e){
+			e.printStackTrace();
+		}
+		
+		finally{
+			if (fr != null) fr.close();
+		}
+		
+	}
+
+}

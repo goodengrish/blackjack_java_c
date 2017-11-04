@@ -1,0 +1,23 @@
+package fr.univ.artois;
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Main {
+	
+	public static void main(String[] args){
+		//FenetrePrincipale fen = new FenetrePrincipale();
+		HashSet<Integer> hs = new HashSet<Integer>();
+		Integer a = new Integer(1);
+		Integer b = new Integer(2);
+		hs.add(a);
+		hs.add(b);
+		
+		Iterator ite = hs.iterator();
+		
+		while(ite.hasNext()){
+			System.out.println(ite.next());
+		}
+		
+	}
+
+}

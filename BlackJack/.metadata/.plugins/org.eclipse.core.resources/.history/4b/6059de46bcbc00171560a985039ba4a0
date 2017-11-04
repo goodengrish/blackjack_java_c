@@ -1,0 +1,20 @@
+package fr.univ.artois;
+
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+/**
+ * Si une connexion se fait avec un serveur, mais qu'il n'y a pas assez de joueur,
+ * on affichera cette fenêtre au client
+ * @author Browarr
+ *
+ */
+public class FenetreAttenteDeLancementDePartie extends JPanel{
+	
+	private JLabel messageDAttente = new JLabel("Connexion établie. Pas assez de joueurs. En attente...");
+	
+	public FenetreAttenteDeLancementDePartie(){
+		this.add(this.messageDAttente);
+	}
+	
+}

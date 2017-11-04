@@ -1,0 +1,9 @@
+package fr.univ.artois;
+
+import javax.swing.JPanel;
+
+public class FenetreDeConnexion extends JPanel{
+	
+	
+
+}

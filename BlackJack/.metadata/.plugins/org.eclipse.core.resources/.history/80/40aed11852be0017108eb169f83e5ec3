@@ -1,0 +1,16 @@
+package fr.univ.artois;
+
+
+
+/**
+ * Fenêtre de jeu où se déroulera la partie
+ * @author Browarr
+ *
+ */
+public class FenetreDeJeu extends JPanel{
+	
+	public FenetreDeJeu(){
+		
+	}
+
+}

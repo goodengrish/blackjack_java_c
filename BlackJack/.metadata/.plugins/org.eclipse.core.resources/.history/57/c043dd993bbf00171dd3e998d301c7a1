@@ -1,0 +1,32 @@
+package fr.univ.artois;
+
+import java.awt.GridLayout;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+/**
+ * Rangée de boutons représentant les actions possibles pour un joueur
+ * @author Browarr
+ *
+ */
+public class RangeeActionsJoueurs extends JPanel{
+	
+	private JButton actionHit = new JButton("Hit");
+	private JButton actionStand = new JButton("Stand");
+	private JButton actionDouble = new JButton("Double");
+	private JButton actionSurrender = new JButton("Surrender");
+	private JButton actionSplit = new JButton("Split");
+	
+	public RangeeActionsJoueurs(){
+		this.setLayout(new GridLayout(1, 5));
+		this.add(this.actionHit);
+		this.add(this.actionStand);
+		this.add(this.actionDouble);
+		this.add(this.actionSurrender);
+		this.add(this.actionSplit);
+	}
+	
+	
+
+}

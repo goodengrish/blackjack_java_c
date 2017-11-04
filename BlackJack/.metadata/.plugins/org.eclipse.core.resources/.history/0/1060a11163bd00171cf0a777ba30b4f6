@@ -1,0 +1,16 @@
+package fr.univ.artois;
+
+import java.util.LinkedList;
+
+public class Main {
+	
+	public static void main(String[] args){
+		//FenetrePrincipale fen = new FenetrePrincipale();
+		
+		LinkedList ll = new LinkedList();
+		ll.addFirst(new String("Premier"));
+		ll.addFirst(new String("Dernier"));
+		
+	}
+
+}

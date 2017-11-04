@@ -1,0 +1,20 @@
+package fr.univ.artois;
+
+import java.awt.Color;
+
+import javax.swing.JPanel;
+
+/**
+ * Panel où le joueur sera mis en attente en cas de serveur plein
+ * @author Browarr
+ *
+ */
+public class FenetreDeLobby extends JPanel{
+	
+	
+	
+	public FenetreDeLobby(){
+		this.setBackground(Color.BLACK);
+	}
+
+}

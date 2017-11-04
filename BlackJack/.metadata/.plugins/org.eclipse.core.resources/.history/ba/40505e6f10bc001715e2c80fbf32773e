@@ -1,0 +1,20 @@
+package fr.univ.artois;
+
+import javax.swing.JPanel;
+import javax.swing.BoxLayout;
+import javax.swing.JLabel;
+
+public class FenetreDeConnexion extends JPanel{
+	
+	private JLabel messageDeBienvenue = new JLabel("Bienvenue au BlackJack. Veuillez vous connecter.");
+	private ZoneDeSaisieServeur adresseServeur = new ZoneDeSaisieServeur();
+	private ZoneDeSaisieServeurPort portServeur = new ZoneDeSaisieServeurPort();
+	
+	public FenetreDeConnexion(){
+		this.setLayout(new BoxLayout(this, BoxLayout.LINE_AXIS));
+		this.add(this.messageDeBienvenue);
+		this.add(this.adresseServeur);
+		this.add(this.portServeur);
+	}
+	
+}

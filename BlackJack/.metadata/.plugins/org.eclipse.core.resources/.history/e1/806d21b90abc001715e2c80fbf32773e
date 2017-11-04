@@ -1,0 +1,25 @@
+package fr.univ.artois;
+
+import java.awt.Dimension;
+
+import javax.swing.JFrame;
+
+/**
+ * Fenêtre où se présentera le jeu
+ * Chaque joueur aura une fenêtre
+ * Ne pas oublier qu'à chaque action de la part d'un des joueurs,
+ * chaque fenêtre de chaque joueur devra se mettre à jour
+ * @author Browarr
+ *
+ */
+public class FenetreDeJeu extends JFrame{
+	
+	public FenetreDeJeu(){
+		this.setTitle("BlackJack");
+		this.setPreferredSize(new Dimension(800,600));
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
+	}
+	
+}

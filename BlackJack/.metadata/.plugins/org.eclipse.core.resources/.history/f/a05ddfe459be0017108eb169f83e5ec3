@@ -1,0 +1,23 @@
+package fr.univ.artois;
+
+import javax.swing.JPanel;
+
+/**
+ * Fenêtre de jeu où se déroulera la partie
+ * @author Browarr
+ *
+ */
+public class FenetreDeJeu extends JPanel{
+	
+	private Croupier croupier = new Croupier();
+	private LabelJoueurEnCours tourJoueur = new LabelJoueurEnCours();
+	
+	public FenetreDeJeu(){
+		this.setLayout(null);
+		this.croupier.setBounds(470, 10, 60, 25);
+		this.add(this.croupier);
+		this.tourJoueur.setBounds(800, 500, 100, 75);
+		this.add(this.tourJoueur);
+	}
+
+}

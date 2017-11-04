@@ -1,0 +1,18 @@
+package fr.univ.artois;
+
+import javax.swing.JPanel;
+
+/**
+ * Fenêtre de jeu où se déroulera la partie
+ * @author Browarr
+ *
+ */
+public class FenetreDeJeu extends JPanel{
+	
+	private Croupier croupier = new Croupier();
+	
+	public FenetreDeJeu(){
+		this.add(this.croupier);
+	}
+
+}

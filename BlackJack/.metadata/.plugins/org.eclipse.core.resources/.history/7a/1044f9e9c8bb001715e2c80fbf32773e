@@ -1,0 +1,16 @@
+package fr.univ.artois;
+
+public class Main {
+	
+	public static void main(String[] args){
+		Integer tableauEntiers[] = new Integer[10];
+		int indiceI = 0;
+		for(; indiceI < tableauEntiers.length;){
+			tableauEntiers[indiceI] = indiceI++;
+		}
+		for(indiceI = 0; indiceI < tableauEntiers.length; indiceI++){
+			System.out.println(tableauEntiers[indiceI]);
+		}
+	}
+
+}

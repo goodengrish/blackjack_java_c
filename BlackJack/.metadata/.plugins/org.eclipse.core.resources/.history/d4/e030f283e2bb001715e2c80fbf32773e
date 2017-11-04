@@ -1,0 +1,10 @@
+package fr.univ.artois;
+
+public class Main {
+	
+	public static void main(String[] args){
+		String mot = new String("Tomate");
+		System.out.println(mot.contains("To"));
+	}
+
+}

@@ -1,0 +1,20 @@
+package fr.univ.artois;
+import java.util.HashSet;
+
+public class Main {
+	
+	public static void main(String[] args){
+		//FenetrePrincipale fen = new FenetrePrincipale();
+		HashSet<Integer> hs = new HashSet<Integer>();
+		hs.add(1);
+		hs.add(1);
+		
+		System.out.println("Taille du set: "+hs.size());
+		
+		for(Integer elt : hs){
+			System.out.println(elt);
+		}
+		
+	}
+
+}

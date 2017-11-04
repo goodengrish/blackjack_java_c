@@ -1,0 +1,12 @@
+package fr.univ.artois;
+
+public class Main {
+	
+	public static void main(String[] args){
+		final String a = new String("salut");
+		String b = new String("pouet");
+		b = a;
+		System.out.println(b);
+	}
+
+}
